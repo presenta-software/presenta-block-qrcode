@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PresentaBlockQRCode</title>
+    <script src="../dist/presenta-block-qrcode.min.js"></script>
+
+    <style>
+        #wrapper{
+            width: 600px;
+            height: 250px;
+            outline: 1px solid red;
+            resize: both;
+            overflow: hidden;
+            background: skyblue;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="wrapper"></div>
+
+    <script>
+        var block = {
+            type: 'qrcode',
+            color: 'blue',
+            content: 'John Doe and domsjkhdjk sahd as'
+        }
+        new PresentaBlockQRCode(document.querySelector('#wrapper'), block)
+    </script>
+</body>
+</html>
