@@ -19,6 +19,8 @@ const block = function (el, config) {
       if (err) console.error(err)
       child.innerHTML = str
     })
+  } else {
+    child.innerHTML = '<p>QRCode</p>'
   }
 
   this.beforeDestroy = () => {
