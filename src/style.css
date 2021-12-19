@@ -12,6 +12,6 @@
     height: 100%;
 }
 
-svg path{
+.qrcode svg path{
     stroke: var(--qrcodeColor);
 }
