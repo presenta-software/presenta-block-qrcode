@@ -1,6 +1,6 @@
 {
   "name": "@presenta/block-qrcode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Render a QRCode in a PRESENTA Block",
   "main": "src/index.js",
   "unpkg": "dist/presenta-block-qrcode.min.js",
